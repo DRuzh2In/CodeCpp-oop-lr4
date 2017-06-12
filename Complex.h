@@ -12,7 +12,7 @@ private:
 public:
 
     Complex() {
-      }
+    }
     Complex(double re, double im) : re(re), im(im) {}
 
     ~Complex() {}
@@ -38,7 +38,6 @@ public:
     static Type mult(Type z1, Type z2) {
         double re = z1.get_re() * z2.get_re() - z1.get_im() * z2.get_im();
         double im = z1.get_im() * z2.get_im() + z1.get_re() * z2.get_re();
-
         return Type(re, im);
     }
 
@@ -47,7 +46,6 @@ public:
     static Type sum(Type z1, Type z2) {
         int re = z1.get_re() + z2.get_re();
         int im = z1.get_im() + z2.get_im();
-
         return Type(re, im);
     }
 
@@ -56,7 +54,6 @@ public:
     static Type sub(Type z1, Type z2) {
         double re = z1.get_re() - z2.get_re();
         double im = z1.get_im() - z2.get_im();
-
         return Type(re, im);
     }
 
@@ -67,7 +64,6 @@ public:
                     (z2.get_re() * z2.get_re() + z2.get_im() * z2.get_im());
         double im = (z1.get_im() * z2.get_re() - z1.get_re() * z2.get_im()) /
                     (z2.get_re() * z2.get_re() + z2.get_im() * z2.get_im());
-
         return Type(re, im);
     }
 
@@ -75,7 +71,6 @@ public:
     // Module of complex number
     static Type mod(Type z) {
         double res = sqrt(z.get_re() * z.get_re() + z.get_im() * z.get_im());
-
         return res;
     }
 
@@ -88,4 +83,3 @@ public:
         return out;
     }
 };
-

@@ -6,31 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/Complex.h
+C:/Users/dialo/Documents/CLionProjects/CodeCpp-oop-lr4/Complex.h
 cmath
 -
 iostream
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/iostream
+C:/Users/dialo/Documents/CLionProjects/CodeCpp-oop-lr4/iostream
 
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/Iterator.h
-Note.h
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/Note.h
+C:/Users/dialo/Documents/CLionProjects/CodeCpp-oop-lr4/List.h
 
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/List.h
-Note.h
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/Note.h
-Iterator.h
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/Iterator.h
-
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/Note.h
-cstdio
--
-
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/main.cpp
+C:/Users/dialo/Documents/CLionProjects/CodeCpp-oop-lr4/main.cpp
 iostream
 -
 List.h
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/List.h
+C:/Users/dialo/Documents/CLionProjects/CodeCpp-oop-lr4/List.h
 Complex.h
-C:/Users/vdruzhinin/CLionProjects/CodeCpp-oop-lr4/Complex.h
+C:/Users/dialo/Documents/CLionProjects/CodeCpp-oop-lr4/Complex.h
 
